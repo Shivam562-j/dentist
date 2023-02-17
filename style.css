@@ -764,8 +764,6 @@ section{
 	display: -ms-flexbox;
 	display: flex;
 	border-radius: 0.6em;
-	-webkit-box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
-	box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
 }
 .testimonial-container {
 	width: 85%;
