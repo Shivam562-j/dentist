@@ -519,7 +519,231 @@ section{
     -o-border-radius: 15px;
 }
 
+.wbtn{
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #2355d3;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
 
+.wbtn:hover{
+    background-color: #2355d3;
+    color: #fff;
+}
+
+.ser-parent {
+    margin-bottom: 0;
+}
+
+.live{
+    padding: 2px 0;
+    background-color: #ecf5fa;
+}
+
+.live-parent{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+
+.live-box{
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+.live-box .fa-award,
+.live-box .fa-heart-pulse,
+.live-box .fa-user,
+.live-box .fa-trophy
+{
+    color: #2355d3 !important;
+    font-size: 55px;
+}
+
+.live-box h2{
+    color: black;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.live-box span{
+    color: #8f8f8f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+.t-wrapper{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.our-team{
+    width: 250px;
+    padding: 20px 15px 30px;
+    background:  #ecf5fa;
+    border-radius: 15px;
+    text-align: center;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 176px;
+    height: 175px;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #2355d3;
+    border-radius: 50%;
+}
+.pic img{
+    width: 150px;
+    height: 100%;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #292930;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #2355d3;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.our-team .social li a{
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #2355d3;
+    border: 1px solid #2355d3;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #2355d3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social li .fa-facebook-f,
+.social li .fa-twitter,
+.social li .fa-linkedin-in
+{
+    color: #2355d3;
+
+}
+
+
+.contact{
+    background-image: url(./image/contactus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c-right{
+    padding-left: 30px;
+}
+
+.c-right .sec-heading{
+    text-align: left;
+}
+
+.c-right .sec-heading h2,
+.c-right .sec-heading p{
+    text-align: left;
+    width: 100%;
+    color: #fff;
+}
+
+.c-right .sec-heading p{
+    color: #ffffffbd;
+}
+
+.formwrapper{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.formwrapper input,
+.formwrapper button,
+.formwrapper textarea
+{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #2355d3;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    resize: none;
+}
+
+.formwrapper button{
+    width: 25%;
+    cursor: pointer;
+    background-color: #2355d3;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.formwrapper button:hover{
+    background-color: #fff;
+    color: #2355d3;
+}
+
+.contact .left iframe{
+    height: 525px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 
 
 
