@@ -1,8 +1,8 @@
 <?php
-    $name = $_['name'];
-    $mobileno = $_['mobileno'];
-    $email = $_['email'];
-    $message = $_['message'];
+    $name = $_REQUEST['name'];
+    $mobileno = $_REQUEST['mobileno'];
+    $email = $_REQUEST['email'];
+    $message = $_REQUEST['message'];
 
     // check the field
     if(empty($name) || empty($mobileno) || empty($message)){
