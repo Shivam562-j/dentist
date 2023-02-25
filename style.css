@@ -1551,6 +1551,10 @@ footer{
 
 @media (max-width: 576px){
 
+    .h-left a span, .h-right a span {
+        display: none;
+    }
+
     .ser-parent {
         justify-content: center;
     }
